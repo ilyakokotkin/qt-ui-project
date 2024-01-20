@@ -68,10 +68,6 @@ videoplayer.cpp: Implementation of the main widget, including media player setup
 
 videoplayer.ui: UI file describing the layout of the application's main widget.
 
-## Contributing
-
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## License
 This project is licensed under the BSD-3-Clause License - see the LICENSE file for details.
 
