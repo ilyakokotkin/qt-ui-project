@@ -6,6 +6,7 @@ This project is a simple video player application developed using the Qt framewo
 
 - Qt 6.6.1 or later
 - Qt Multimedia module
+- Docker (if containerization is needed)
 
 ### Configuring the Video File
 
