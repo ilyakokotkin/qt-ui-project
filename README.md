@@ -44,7 +44,7 @@ docker run --rm -it videoplayer
 
 The --rm option tells Docker to remove the container after it exits, and -it allows you to interact with the application.
 
-#### Note
+#### Note:
 
 Running a GUI application from a Docker container on host system can be complex because the application needs access to the host's display server. 
 
