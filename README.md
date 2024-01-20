@@ -21,19 +21,53 @@ m_mediaPlayer->setSource(QUrl::fromLocalFile("your/path/to/video/file.mp4"));
 Replace your/path/to/video/file.mp4 with the actual path to your video file on your system.
 
 ## Building the Application
+
+### Using Docker 
+
+#### Build the Docker Image:
+
+Open a terminal and navigate to the directory containing your project and the Dockerfile. 
+Run the following command to build the Docker image:
+```
+docker build -t videoplayer .
+```
+This command builds a new Docker image with the tag videoplayer based on the instructions in your Dockerfile.
+
+#### Run the Container:
+
+After building the image, run your application in a new container using:
+
+```
+docker run --rm -it videoplayer
+```
+
+The --rm option tells Docker to remove the container after it exits, and -it allows you to interact with the application.
+
+#### Note
+
+Running a GUI application from a Docker container on host system can be complex because the application needs access to the host's display server. 
+
+This is straightforward on a Linux system but can be quite involved on Windows or macOS.
+
+For a Linux system, one can share the host's display with the container like this:
+
+```
+docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix videoplayer
+```
+
 ### Using Qt Creator
 
-Open Qt Creator.
+1. Open Qt Creator.
 
-Select File > Open File or Project....
+2. Select File > Open File or Project....
 
-Navigate to the directory containing the project files and select the CMakeLists.txt file.
+3. Navigate to the directory containing the project files and select the CMakeLists.txt file.
 
-Choose a build directory.
+4. Choose a build directory.
 
-Click the Configure Project button.
+5. Click the Configure Project button.
 
-Once the configuration is done, click the Build button on the bottom left or select Build > Build All.
+6. Once the configuration is done, click the Build button on the bottom left or select Build > Build All.
 
 ### Using Command Line
 
