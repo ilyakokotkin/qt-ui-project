@@ -57,6 +57,5 @@ int main(int argc, char *argv[])
     player.show();
 
     // Enter the main event loop and wait until exit() is called
-    // Returns the value that was set to exit() (which is 0 if exit() is called via quit())
     return app.exec();
 }

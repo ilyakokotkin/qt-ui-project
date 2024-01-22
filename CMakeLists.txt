@@ -17,6 +17,7 @@ find_package(Qt6 REQUIRED COMPONENTS Core Gui Multimedia MultimediaWidgets Widge
 qt_add_executable(videowidget
     main.cpp
     videoplayer.cpp videoplayer.h
+    config_resources.qrc
 )
 
 set_target_properties(videowidget PROPERTIES

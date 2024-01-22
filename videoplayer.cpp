@@ -25,7 +25,8 @@ VideoPlayer::VideoPlayer(QWidget *parent) : QWidget(parent)
     QVideoWidget *videoWidget = new QVideoWidget;
 
     m_mediaPlayer->setVideoOutput(videoWidget);
-    m_mediaPlayer->setSource(QUrl::fromLocalFile("C:\\Users\\koily\\projects\\qt-ui-project\\qt-ui\\production_id_4168979 (1080p).mp4"));
+    m_mediaPlayer->setSource(QUrl("qrc:/new/prefix1/video.mp4"));
+
 
     // Create the home screen widget
     QWidget *homeScreen = new QWidget;

@@ -10,6 +10,8 @@ SOURCES = \
     main.cpp \
     videoplayer.cpp
 
+RESOURCES += video_resource.qrc
+
 target.path = $$[QT_INSTALL_EXAMPLES]/multimedia/videowidget
 INSTALLS += target
 
