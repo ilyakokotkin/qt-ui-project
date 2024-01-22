@@ -115,7 +115,7 @@ videoplayer.cpp: Implementation of the main widget, including media player setup
 videoplayer.ui: UI file describing the layout of the application's main widget.
 
 ## License
-This project is licensed under the BSD-3-Clause License - see the LICENSE file for details.
+This project is licensed under the BSD-3-Clause License.
 
 ## Acknowledgments
 Developed By Ilya Kokotkin using Qt for Harbinger Motors
