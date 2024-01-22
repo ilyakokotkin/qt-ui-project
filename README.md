@@ -2,6 +2,26 @@
 
 This project is a simple video player application developed using the Qt framework. It features a home screen with "Play Video" and "About" buttons. Clicking the "Play Video" button plays a predetermined video, and the "About" button displays information about the application.
 
+## Qt Framework Utilization
+
+For this project the following were utilized: 
+
+### Qt Tool and Libraries:
+
+- Qt Creator: Integrated development environment (IDE) used for designing and developing the UI and application logic.
+- Qt Designer: A tool for designing and building graphical user interfaces (GUIs) from Qt widgets.
+
+### Widgets:
+
+- QPushButton: A widget that provides a command button.
+- QVideoWidget: A widget used to display the video content in the UI.
+- QMediaPlayer: A high-level media playback module used to handle the playback of video files.
+- QHBoxLayout and QVBoxLayout: Layout widgets used to arrange child widgets horizontally and vertically within a container.
+- QStackedWidget: A widget that can be used to manage a stack of widgets where only one widget is visible at a time.
+- QLabel: Provides a text or image display.
+- QSlider: A widget that provides a vertical or horizontal slider.
+- QMessageBox: A module used to display messages and alerts to the user.
+
 ## Requirements
 
 - Qt 6.6.1 or later
