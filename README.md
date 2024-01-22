@@ -1,4 +1,4 @@
-# Video Player Application
+# Qt UI Development Design
 
 This project is a simple video player application developed using the Qt framework. It features a home screen with "Play Video" and "About" buttons. Clicking the "Play Video" button plays a predetermined video, and the "About" button displays information about the application.
 
