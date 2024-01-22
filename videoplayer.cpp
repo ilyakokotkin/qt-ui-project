@@ -24,9 +24,9 @@ VideoPlayer::VideoPlayer(QWidget *parent) : QWidget(parent)
     m_mediaPlayer = new QMediaPlayer(this);
     QVideoWidget *videoWidget = new QVideoWidget;
 
+    // Bake in the video file into the code using .qrc resource file
     m_mediaPlayer->setVideoOutput(videoWidget);
     m_mediaPlayer->setSource(QUrl("qrc:/new/prefix1/video.mp4"));
-
 
     // Create the home screen widget
     QWidget *homeScreen = new QWidget;
