@@ -10,16 +10,7 @@ This project is a simple video player application developed using the Qt framewo
 
 ### Configuring the Video File
 
-The application expects a video file to be located in the videos directory within the project folder. To set up your video file, follow these steps:
-
-1. Create a folder named videos in the root of the project directory.
-2. Place your video file inside the videos folder and rename it to sample.mp4, or use the actual name of your video file and update the source path in the code accordingly.
-
-Alternatively, you can modify the source code to point to the location of your video file: 
-```
-m_mediaPlayer->setSource(QUrl::fromLocalFile("your/path/to/video/file.mp4"));
-```
-Replace your/path/to/video/file.mp4 with the actual path to your video file on your system.
+The application containts video.mp4 within its source code via the use of video_resource.qrc file.
 
 ## Building the Application
 
